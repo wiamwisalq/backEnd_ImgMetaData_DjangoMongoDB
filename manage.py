@@ -6,11 +6,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
-<<<<<<< HEAD
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'pfaProject.settings')
-=======
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'peojetPFA.settings')
->>>>>>> 52e0c55fad8c8c20ca1404a624d9f1098b6aeaf3
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
